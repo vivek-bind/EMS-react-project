@@ -1,0 +1,125 @@
+
+body {
+  background-color: #02050b;
+}
+
+#root {
+  height: auto;
+}
+
+#main-outer-div {
+  position: relative;
+  background-color: #fff;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 7%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.container
+
+#logo-img {
+  width: 100%;
+  margin: 10% auto 10%;
+}
+
+#logo-div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#title-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+ .login-form-input {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  margin: 10px 0 10px;
+  padding: 15px;
+  border: 1px;
+  background-color: #eef3ff;
+}
+
+.login-form-input:focus {
+  outline: 0;
+}
+
+#outer-login-form-div {
+  width: 90%;
+  margin: 0 auto;
+}
+.login-form-input[type="submit"] {
+  background-color: #395faf;
+  border-width: 0px;
+  margin-top: 15px;
+  padding: 0px;
+} 
+
+.loading {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.alert {
+  font-size: 14px;
+  text-align: center;
+  color: red;
+}
+
+@media (max-width: 300px) {
+  #main-outer-div {
+    width: 50%;
+    min-width: 0px;
+  }
+}
+
+
+
+
+
+
+
+#forgot-password-form {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#forgot-password-form h4 {
+  margin-bottom: 10px;
+}
+
+.login-form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#submitBtn {
+  background-color: #395faf;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#submitBtn:hover {
+  background-color: #2a4a8d;
+}
+
